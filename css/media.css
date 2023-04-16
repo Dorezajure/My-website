@@ -1,0 +1,154 @@
+@media(max-width: 768px) {
+    /*работа с шапкой*/
+    .header__icon {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .header__img {
+        width: 48px;
+        height: 48px;
+    }
+
+    /*работа с шапкой*/
+    /*работа с основной информацией*/
+
+    .information__logo {
+        padding-right: 0px;
+    }
+
+    .information {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .information__img {
+        max-width: 124px;
+    }
+
+    .information__info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .information__text {
+        font-size: 32px;
+    }
+
+    .information__title {
+        font-size: 16px;
+    }
+
+    .information__social__icons__img {
+        width: 24px;
+    }
+
+    .achievements {
+        padding-bottom: 25px;
+    }
+
+    .achievements__number {
+        font-size: 16px;
+    }
+
+    .achievements__title {
+        font-size: 14px;
+    }
+
+    .achievements__text__one {
+        padding-right: 45px;
+    }
+
+    .achievements__text__two {
+        padding-right: 45px;
+    }
+
+    /*работа с основной информацией*/
+    /*работа с кнопками*/
+    .button {
+        margin-bottom: 48px;
+    }
+
+    .button__resume {
+        width: 158px;
+        height: 44px;
+        align-items: center;
+        margin-right: 12px;
+    }
+
+    .button__text {
+        font-size: 12px;
+        text-align: center;
+        padding: 13px 7px 13px 22px;
+    }
+
+    .button__img {
+        padding-right: 10px;
+        height: 14px;
+    }
+
+    .btn {
+        width: 158px;
+        height: 44px;
+        font-size: 12px;
+    }
+
+    .tabs__list {
+        margin-bottom: 30px;
+    }
+
+    .tabs__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 154px;
+        height: 50.3px;
+        border-radius: 10px;
+    }
+
+    .tabs__background {
+        width: 330px;
+        height: 64px;
+        border-radius: 10px;
+    }
+
+    .tabs__btn--style {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: -0.500211px;
+        color: #A3ABB2;
+    }
+    .portfolio__wrapper__btn {
+        width: 340px;
+        height: 170px;
+        backdrop-filter: blur(2px);
+        margin-bottom: 30px;
+    }
+    /*Работа с блоком Skills*/
+    .content__text {
+        font-size: 32px;
+    }
+    .faq {
+        width: 340px;
+        margin-bottom: 10px;
+    }
+    .collapsible {
+        font-size: 18px;
+    }
+    .conteiner__text {
+        font-size: 14px;
+    }
+    /*Работа с блоком Skills*/
+    /*Подвал*/
+    .footer__title {
+        font-size: 16px;
+    }
+    .footer__text {
+        margin-bottom: 35px;
+    }
+    /*Подвал*/
+}
